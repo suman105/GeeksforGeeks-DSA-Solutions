@@ -1,4 +1,4 @@
-<h2><a href="https://practice.geeksforgeeks.org/problems/add-1-to-a-number-represented-as-linked-list/1?page=3&difficulty[]=1&status[]=solved&sortBy=submissions">Add 1 to a number represented as linked list</a></h2><h3>Difficulty Level : Medium</h3><hr><div class="problems_problem_content__Xm_eO"><p><span style="font-size: 18px;">A number&nbsp;<strong>N</strong>&nbsp;is represented in Linked List such that each digit corresponds to a node in linked list. You need to add 1 to it.</span></p>
+<h2><a href="https://practice.geeksforgeeks.org/problems/add-1-to-a-number-represented-as-linked-list/1?page=1&difficulty[]=1&status[]=solved&category[]=Linked%20List&sortBy=submissions">Add 1 to a number represented as linked list</a></h2><h3>Difficulty Level : Medium</h3><hr><div class="problems_problem_content__Xm_eO"><p><span style="font-size: 18px;">A number&nbsp;<strong>N</strong>&nbsp;is represented in Linked List such that each digit corresponds to a node in linked list. You need to add 1 to it.</span></p>
 <p><span style="font-size: 18px;"><strong>Example 1:</strong></span></p>
 <pre><span style="font-size: 18px;"><strong>Input:
 </strong>LinkedList: 4-&gt;5-&gt;6
