@@ -1,4 +1,4 @@
-<h2><a href="https://practice.geeksforgeeks.org/problems/minimum-swaps/1?page=3&difficulty[]=1&status[]=solved&sortBy=submissions">Minimum Swaps to Sort</a></h2><h3>Difficulty Level : Medium</h3><hr><div class="problems_problem_content__Xm_eO"><p><span style="font-size: 18px;">Given an array of n distinct elements. Find the minimum number of swaps required to sort the array in strictly increasing&nbsp;order.</span></p>
+<h2><a href="https://practice.geeksforgeeks.org/problems/minimum-swaps/1">Minimum Swaps to Sort</a></h2><h3>Difficulty Level : Medium</h3><hr><div class="problems_problem_content__Xm_eO"><p><span style="font-size: 18px;">Given an array of n distinct elements. Find the minimum number of swaps required to sort the array in strictly increasing&nbsp;order.</span></p>
 <p><br><span style="font-size: 18px;"><strong>Example 1:</strong></span></p>
 <pre><span style="font-size: 18px;"><strong>Input:
 </strong>nums = {2, 8, 5, 4}
