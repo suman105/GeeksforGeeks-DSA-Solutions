@@ -23,13 +23,11 @@ class Solution
                     m=k;
                     p=i;
                 }
-                
-                
             }
-            
             return p;
         }
 };
+
 
 
 
