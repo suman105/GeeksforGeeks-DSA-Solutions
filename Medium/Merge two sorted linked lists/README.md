@@ -1,4 +1,4 @@
-<h2><a href="https://practice.geeksforgeeks.org/problems/merge-two-sorted-linked-lists/1?page=3&difficulty[]=1&status[]=solved&sortBy=submissions">Merge two sorted linked lists</a></h2><h3>Difficulty Level : Medium</h3><hr><div class="problems_problem_content__Xm_eO"><p><span style="font-size:18px">Given two sorted linked lists consisting of <strong>N and M</strong>&nbsp;nodes respectively. The task is to merge both of the list (in-place) and return head of the merged list.</span><br>
+<h2><a href="https://practice.geeksforgeeks.org/problems/merge-two-sorted-linked-lists/1">Merge two sorted linked lists</a></h2><h3>Difficulty Level : Medium</h3><hr><div class="problems_problem_content__Xm_eO"><p><span style="font-size:18px">Given two sorted linked lists consisting of <strong>N and M</strong>&nbsp;nodes respectively. The task is to merge both of the list (in-place) and return head of the merged list.</span><br>
 &nbsp;</p>
 
 <p><span style="font-size:18px"><strong>Example 1:</strong></span></p>
