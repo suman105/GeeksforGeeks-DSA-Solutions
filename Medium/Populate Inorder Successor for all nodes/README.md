@@ -1,4 +1,4 @@
-<h2><a href="https://practice.geeksforgeeks.org/problems/populate-inorder-successor-for-all-nodes/1?page=6&difficulty[]=1&status[]=solved&sortBy=submissions">Populate Inorder Successor for all nodes</a></h2><h3>Difficulty Level : Medium</h3><hr><div class="problems_problem_content__Xm_eO"><p><span style="font-size:18px">Given a Binary Tree, write a function to populate next pointer for all nodes.&nbsp;The next pointer for every node should be set to point to inorder successor.</span></p>
+<h2><a href="https://practice.geeksforgeeks.org/problems/populate-inorder-successor-for-all-nodes/1">Populate Inorder Successor for all nodes</a></h2><h3>Difficulty Level : Medium</h3><hr><div class="problems_problem_content__Xm_eO"><p><span style="font-size:18px">Given a Binary Tree, write a function to populate next pointer for all nodes.&nbsp;The next pointer for every node should be set to point to inorder successor.</span></p>
 
 <p><strong><span style="font-size:18px">Example 1:</span></strong></p>
 
