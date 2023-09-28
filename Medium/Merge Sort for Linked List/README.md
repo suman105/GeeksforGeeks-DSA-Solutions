@@ -1,4 +1,4 @@
-<h2><a href="https://practice.geeksforgeeks.org/problems/sort-a-linked-list/1?page=5&difficulty[]=1&status[]=solved&sortBy=submissions">Merge Sort for Linked List</a></h2><h3>Difficulty Level : Medium</h3><hr><div class="problems_problem_content__Xm_eO"><p><span style="font-size:18px">Given Pointer/Reference to the head of the linked list, the task is to <strong>Sort the given linked list using Merge Sort</strong>.</span><br>
+<h2><a href="https://practice.geeksforgeeks.org/problems/sort-a-linked-list/1">Merge Sort for Linked List</a></h2><h3>Difficulty Level : Medium</h3><hr><div class="problems_problem_content__Xm_eO"><p><span style="font-size:18px">Given Pointer/Reference to the head of the linked list, the task is to <strong>Sort the given linked list using Merge Sort</strong>.</span><br>
 <span style="font-size:18px"><strong>Note:</strong>&nbsp;If the length of linked list is odd, then the&nbsp;extra node should go in the first list while splitting.</span></p>
 
 <p><span style="font-size:18px"><strong>Example 1:</strong></span></p>
