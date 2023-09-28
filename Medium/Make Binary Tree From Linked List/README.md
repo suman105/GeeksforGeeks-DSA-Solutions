@@ -1,4 +1,4 @@
-<h2><a href="https://practice.geeksforgeeks.org/problems/make-binary-tree/1?page=7&difficulty[]=1&status[]=solved&sortBy=submissions">Make Binary Tree From Linked List</a></h2><h3>Difficulty Level : Medium</h3><hr><div class="problems_problem_content__Xm_eO"><p><span style="font-size:18px">Given a Linked List Representation of Complete Binary Tree. The task is to construct the Binary tree.</span><br>
+<h2><a href="https://practice.geeksforgeeks.org/problems/make-binary-tree/1">Make Binary Tree From Linked List</a></h2><h3>Difficulty Level : Medium</h3><hr><div class="problems_problem_content__Xm_eO"><p><span style="font-size:18px">Given a Linked List Representation of Complete Binary Tree. The task is to construct the Binary tree.</span><br>
 <span style="font-size:18px"><strong>Note : </strong>The&nbsp;complete binary tree is represented as a linked list&nbsp;in a way where if root node is stored at position&nbsp;i, its left, and right children are stored at position&nbsp;<strong>2*i+1</strong>, <strong>2*i+2</strong> respectively.</span><br>
 <br>
 <span style="font-size:18px"><strong>Example 1:</strong></span></p>
