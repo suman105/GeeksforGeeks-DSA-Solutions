@@ -1,4 +1,4 @@
-<h2><a href="https://practice.geeksforgeeks.org/problems/rearrange-a-linked-list/1?page=6&difficulty[]=1&status[]=solved&sortBy=submissions">Rearrange a linked list</a></h2><h3>Difficulty Level : Medium</h3><hr><div class="problems_problem_content__Xm_eO"><p><span style="font-size:18px">Given a singly linked list, the task is to rearrange it in a way that all odd position nodes are together and all even positions node are together.<br>
+<h2><a href="https://practice.geeksforgeeks.org/problems/rearrange-a-linked-list/1">Rearrange a linked list</a></h2><h3>Difficulty Level : Medium</h3><hr><div class="problems_problem_content__Xm_eO"><p><span style="font-size:18px">Given a singly linked list, the task is to rearrange it in a way that all odd position nodes are together and all even positions node are together.<br>
 Assume the first element to be at position 1 followed by second element at position 2 and so on.<br>
 <strong>Note: </strong>You should place all odd positioned nodes first and then the even positioned ones. (considering 1 based indexing). Also, the relative order of odd positioned nodes and even positioned nodes should be maintained.</span></p>
 
