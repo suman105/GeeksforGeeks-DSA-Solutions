@@ -77,42 +77,19 @@ Node* buildTree(string str) {
 
 
 // } Driver Code Ends
-/*Complete the function below
-
-struct Node {
-    int data;
-    Node *left;
-    Node *right;
-
-    Node(int val) {
-        data = val;
-        left = right = NULL;
-    }
-};
-*/
 
 class Solution {
   public:
-    // Return the Kth smallest element in the given BST
-    
     void help(Node *head, int &k,int &r)
     {
-        if(head==NULL)
-            return;
-        
+        if(head==NULL)  return;
         help(head->left,k,r);
-        
         --k;
         if(k==0)
         {
             r=head->data;
             return;
         }
-        // if(k<0)
-        // {
-        //     r=-1;
-        //     return;
-        // }
         help(head->right,k,r);
     }
     
