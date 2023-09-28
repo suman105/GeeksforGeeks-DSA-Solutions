@@ -1,4 +1,4 @@
-<h2><a href="https://practice.geeksforgeeks.org/problems/print-a-binary-tree-in-vertical-order/1?page=3&difficulty[]=1&status[]=solved&sortBy=submissions">Vertical Traversal of Binary Tree</a></h2><h3>Difficulty Level : Medium</h3><hr><div class="problems_problem_content__Xm_eO"><p><span style="font-size:18px">Given a Binary Tree, find the vertical traversal of it starting from the leftmost level to the rightmost level.<br>
+<h2><a href="https://practice.geeksforgeeks.org/problems/print-a-binary-tree-in-vertical-order/1">Vertical Traversal of Binary Tree</a></h2><h3>Difficulty Level : Medium</h3><hr><div class="problems_problem_content__Xm_eO"><p><span style="font-size:18px">Given a Binary Tree, find the vertical traversal of it starting from the leftmost level to the rightmost level.<br>
 If there are multiple nodes passing through a vertical line, then they should be printed as they appear in <strong>level order</strong> traversal of the tree.</span></p>
 
 <p><span style="font-size:18px"><strong>Example 1:</strong></span></p>
