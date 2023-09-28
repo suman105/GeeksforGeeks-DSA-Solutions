@@ -1,4 +1,4 @@
-<h2><a href="https://practice.geeksforgeeks.org/problems/inorder-traversal-iterative/1?page=7&difficulty[]=1&status[]=solved&sortBy=submissions">Inorder Traversal (Iterative)</a></h2><h3>Difficulty Level : Medium</h3><hr><div class="problems_problem_content__Xm_eO"><p><span style="font-size:18px">Given a binary tree. Find the inorder traversal of the tree <strong>without using recursion</strong>.</span></p>
+<h2><a href="https://practice.geeksforgeeks.org/problems/inorder-traversal-iterative/1">Inorder Traversal (Iterative)</a></h2><h3>Difficulty Level : Medium</h3><hr><div class="problems_problem_content__Xm_eO"><p><span style="font-size:18px">Given a binary tree. Find the inorder traversal of the tree <strong>without using recursion</strong>.</span></p>
 
 <p><strong><span style="font-size:18px">Example 1</span></strong></p>
 
