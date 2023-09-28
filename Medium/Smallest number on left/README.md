@@ -1,4 +1,4 @@
-<h2><a href="https://practice.geeksforgeeks.org/problems/smallest-number-on-left3403/1?page=6&difficulty[]=1&status[]=solved&sortBy=submissions">Smallest number on left</a></h2><h3>Difficulty Level : Medium</h3><hr><div class="problems_problem_content__Xm_eO"><p><span style="font-size:20px">Given an array <strong>a&nbsp;</strong>of integers of length <strong>n</strong>, find the nearest smaller number for every element such that the smaller element is on left side.If no small element present on the left print -1.</span></p>
+<h2><a href="https://practice.geeksforgeeks.org/problems/smallest-number-on-left3403/1">Smallest number on left</a></h2><h3>Difficulty Level : Medium</h3><hr><div class="problems_problem_content__Xm_eO"><p><span style="font-size:20px">Given an array <strong>a&nbsp;</strong>of integers of length <strong>n</strong>, find the nearest smaller number for every element such that the smaller element is on left side.If no small element present on the left print -1.</span></p>
 
 <p><strong><span style="font-size:20px">Example 1:</span></strong></p>
 
