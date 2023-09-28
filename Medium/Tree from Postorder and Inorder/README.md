@@ -1,4 +1,4 @@
-<h2><a href="https://practice.geeksforgeeks.org/problems/tree-from-postorder-and-inorder/1?page=6&difficulty[]=1&status[]=solved&sortBy=submissions">Tree from Postorder and Inorder</a></h2><h3>Difficulty Level : Medium</h3><hr><div class="problems_problem_content__Xm_eO"><p><span style="font-size:18px">Given <strong>inorder </strong>and <strong>postorder</strong> traversals of a Binary Tree in the arrays <strong>in[]</strong> and <strong>post[]</strong> respectively. The task is to construct the binary tree from these traversals.</span></p>
+<h2><a href="https://practice.geeksforgeeks.org/problems/tree-from-postorder-and-inorder/1">Tree from Postorder and Inorder</a></h2><h3>Difficulty Level : Medium</h3><hr><div class="problems_problem_content__Xm_eO"><p><span style="font-size:18px">Given <strong>inorder </strong>and <strong>postorder</strong> traversals of a Binary Tree in the arrays <strong>in[]</strong> and <strong>post[]</strong> respectively. The task is to construct the binary tree from these traversals.</span></p>
 
 <p>&nbsp;</p>
 
