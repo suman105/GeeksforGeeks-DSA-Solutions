@@ -1,46 +1,46 @@
 //{ Driver Code Starts
-
-#include<bits/stdc++.h>
+#include <bits/stdc++.h>
 using namespace std;
 
 // } Driver Code Ends
+#include <bits/stdc++.h>
+using namespace std;
 
-class Solution
-{
-public:
-	public:
-	    int fact(int x)
-	    {
-	        if(x==0)    return 1;
-	        else    return x*fact(x-1);
-	    }
-		int is_StrongNumber(int n)
-		{
-		   int x=n,s=0,b;
-		   while(n)
-		   {
-		       b = n%10;
-		       s = s + fact(b);
-		       n = n/10;
-		   }
-		   if(s == x)   return 1;
-		   else return 0;
-		}
+ // } Driver Code Ends
+class Solution {
+  public:
+  int fact(int n)
+  {
+      if(n==0)  return 1;
+      else  return n*fact(n-1);
+  }
+    int isStrong(int n)
+    {
+        int x,b=n;
+        int l=0;
+        while(n)
+        {
+            x = n%10;
+            l = l + fact(x);
+            n = n/10;
+        }
+        if(l==b)    return 1;
+        else    return 0;
+    }
 };
 
 //{ Driver Code Starts.
-int main(){
-    int T;
-    cin >> T;
-    while(T--)
-    {
-    	int n; 
-    	cin >> n;
-    	Solution ob;
-    	int ans = ob.is_StrongNumber(n);
-    	cout << ans <<"\n";
-    }
-	return 0;
-}
+int main() {
+    int t;
+    cin >> t;
+    while (t--) {
+        int N;
+        
+        cin>>N;
 
+        Solution ob;
+        cout << ob.isStrong(N) << endl;
+    }
+    return 0;
+}
 // } Driver Code Ends
