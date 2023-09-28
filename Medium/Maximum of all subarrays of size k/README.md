@@ -1,4 +1,4 @@
-<h2><a href="https://practice.geeksforgeeks.org/problems/maximum-of-all-subarrays-of-size-k3101/1?page=1&difficulty[]=1&status[]=solved&sortBy=submissions">Maximum of all subarrays of size k</a></h2><h3>Difficulty Level : Medium</h3><hr><div class="problems_problem_content__Xm_eO"><p><span style="font-size:18px">Given an array arr[] of size N and an integer K. Find the maximum for each and every contiguous subarray of size K.</span></p>
+<h2><a href="https://practice.geeksforgeeks.org/problems/maximum-of-all-subarrays-of-size-k3101/1">Maximum of all subarrays of size k</a></h2><h3>Difficulty Level : Medium</h3><hr><div class="problems_problem_content__Xm_eO"><p><span style="font-size:18px">Given an array arr[] of size N and an integer K. Find the maximum for each and every contiguous subarray of size K.</span></p>
 
 <p><strong><span style="font-size:18px">Example 1:</span></strong></p>
 
