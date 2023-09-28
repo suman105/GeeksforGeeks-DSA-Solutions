@@ -1,4 +1,4 @@
-<h2><a href="https://practice.geeksforgeeks.org/problems/cousins-of-a-given-node/1?page=8&difficulty[]=1&status[]=solved&sortBy=submissions">Cousins of a given node</a></h2><h3>Difficulty Level : Medium</h3><hr><div class="problems_problem_content__Xm_eO"><p><span style="font-size:18px">Given a binary tree and a node, print all cousins of given node in order of their appearance. Note that siblings should not be printed.</span></p>
+<h2><a href="https://practice.geeksforgeeks.org/problems/cousins-of-a-given-node/1">Cousins of a given node</a></h2><h3>Difficulty Level : Medium</h3><hr><div class="problems_problem_content__Xm_eO"><p><span style="font-size:18px">Given a binary tree and a node, print all cousins of given node in order of their appearance. Note that siblings should not be printed.</span></p>
 
 <p><strong><span style="font-size:18px">Example 1:</span></strong></p>
 
