@@ -1,4 +1,4 @@
-<h2><a href="https://practice.geeksforgeeks.org/problems/merge-sort-on-doubly-linked-list/1?page=8&difficulty[]=1&status[]=solved&sortBy=submissions">Merge Sort on Doubly Linked List</a></h2><h3>Difficulty Level : Medium</h3><hr><div class="problems_problem_content__Xm_eO"><p><span style="font-size:18px">Given Pointer/Reference to the head of a doubly linked list of N nodes, the task is to <strong>Sort the given doubly linked list using Merge Sort&nbsp;</strong>in both <strong>non-decreasing</strong> and <strong>non-increasing</strong> order.</span></p>
+<h2><a href="https://practice.geeksforgeeks.org/problems/merge-sort-on-doubly-linked-list/1">Merge Sort on Doubly Linked List</a></h2><h3>Difficulty Level : Medium</h3><hr><div class="problems_problem_content__Xm_eO"><p><span style="font-size:18px">Given Pointer/Reference to the head of a doubly linked list of N nodes, the task is to <strong>Sort the given doubly linked list using Merge Sort&nbsp;</strong>in both <strong>non-decreasing</strong> and <strong>non-increasing</strong> order.</span></p>
 
 <p><span style="font-size:18px"><strong>Example 1:</strong></span></p>
 
