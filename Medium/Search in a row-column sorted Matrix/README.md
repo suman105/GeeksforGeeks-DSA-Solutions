@@ -1,4 +1,4 @@
-<h2><a href="https://practice.geeksforgeeks.org/problems/search-in-a-matrix-1587115621/1?page=5&difficulty[]=1&status[]=solved&sortBy=submissions">Search in a row-column sorted Matrix</a></h2><h3>Difficulty Level : Medium</h3><hr><div class="problems_problem_content__Xm_eO"><p><span style="font-size:18px">Given a matrix of size&nbsp;n x m, where every row and column is<strong> sorted in increasing order</strong>, and a number <strong>x.</strong>&nbsp;Find whether&nbsp;element x&nbsp;is present in the matrix or not.</span><br>
+<h2><a href="https://practice.geeksforgeeks.org/problems/search-in-a-matrix-1587115621/1">Search in a row-column sorted Matrix</a></h2><h3>Difficulty Level : Medium</h3><hr><div class="problems_problem_content__Xm_eO"><p><span style="font-size:18px">Given a matrix of size&nbsp;n x m, where every row and column is<strong> sorted in increasing order</strong>, and a number <strong>x.</strong>&nbsp;Find whether&nbsp;element x&nbsp;is present in the matrix or not.</span><br>
 <br>
 <span style="font-size:18px"><strong>Example 1:</strong></span></p>
 
