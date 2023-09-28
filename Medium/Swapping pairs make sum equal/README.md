@@ -1,4 +1,4 @@
-<h2><a href="https://practice.geeksforgeeks.org/problems/swapping-pairs-make-sum-equal4142/1?page=5&difficulty[]=1&status[]=solved&sortBy=submissions">Swapping pairs make sum equal</a></h2><h3>Difficulty Level : Medium</h3><hr><div class="problems_problem_content__Xm_eO"><p><span style="font-size:18px">Given two arrays of integers <strong>A[]</strong> and <strong>B[]</strong> of size <strong>N</strong> and <strong>M</strong>, the task is to check if a pair of values (one value from each array) exists such that swapping the elements of the pair will make the sum of two arrays equal.</span></p>
+<h2><a href="https://practice.geeksforgeeks.org/problems/swapping-pairs-make-sum-equal4142/1">Swapping pairs make sum equal</a></h2><h3>Difficulty Level : Medium</h3><hr><div class="problems_problem_content__Xm_eO"><p><span style="font-size:18px">Given two arrays of integers <strong>A[]</strong> and <strong>B[]</strong> of size <strong>N</strong> and <strong>M</strong>, the task is to check if a pair of values (one value from each array) exists such that swapping the elements of the pair will make the sum of two arrays equal.</span></p>
 
 <p>&nbsp;</p>
 
