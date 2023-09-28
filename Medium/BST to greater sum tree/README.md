@@ -1,4 +1,4 @@
-<h2><a href="https://practice.geeksforgeeks.org/problems/bst-to-greater-sum-tree/1?page=8&difficulty[]=1&status[]=solved&sortBy=submissions">BST to greater sum tree</a></h2><h3>Difficulty Level : Medium</h3><hr><div class="problems_problem_content__Xm_eO"><p><span style="font-size:18px">Given a BST, transform it into greater sum tree where each node contains sum of all nodes greater than that node.</span></p>
+<h2><a href="https://practice.geeksforgeeks.org/problems/bst-to-greater-sum-tree/1">BST to greater sum tree</a></h2><h3>Difficulty Level : Medium</h3><hr><div class="problems_problem_content__Xm_eO"><p><span style="font-size:18px">Given a BST, transform it into greater sum tree where each node contains sum of all nodes greater than that node.</span></p>
 
 <p><strong><span style="font-size:18px">Example 1:</span></strong></p>
 
