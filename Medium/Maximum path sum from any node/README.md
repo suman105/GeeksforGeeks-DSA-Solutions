@@ -1,4 +1,4 @@
-<h2><a href="https://practice.geeksforgeeks.org/problems/maximum-path-sum-from-any-node/1?page=5&difficulty[]=1&status[]=solved&sortBy=submissions">Maximum path sum from any node</a></h2><h3>Difficulty Level : Medium</h3><hr><div class="problems_problem_content__Xm_eO"><p><span style="font-size:18px">Given a binary tree,&nbsp;the task is to find the maximum path sum. The path may start and end at any node in the tree.</span></p>
+<h2><a href="https://practice.geeksforgeeks.org/problems/maximum-path-sum-from-any-node/1">Maximum path sum from any node</a></h2><h3>Difficulty Level : Medium</h3><hr><div class="problems_problem_content__Xm_eO"><p><span style="font-size:18px">Given a binary tree,&nbsp;the task is to find the maximum path sum. The path may start and end at any node in the tree.</span></p>
 
 <p><span style="font-size:18px"><strong>Example 1:</strong></span></p>
 
