@@ -1,4 +1,4 @@
-<h2><a href="https://practice.geeksforgeeks.org/problems/check-if-all-levels-of-two-trees-are-anagrams-or-not/0">Check if all levels of two trees are anagrams or not</a></h2><h3>Difficulty Level : Hard</h3><hr><div class="problems_problem_content__Xm_eO"><p><span style="font-size:18px">Given two binary trees with same number of nodes, the task is&nbsp;to check if each of their levels are anagrams of each other or not.&nbsp;</span></p>
+<h2><a href="https://practice.geeksforgeeks.org/problems/check-if-all-levels-of-two-trees-are-anagrams-or-not/1?page=1&difficulty[]=2&status[]=solved&category[]=Tree&sortBy=submissions">Check if all levels of two trees are anagrams or not</a></h2><h3>Difficulty Level : Hard</h3><hr><div class="problems_problem_content__Xm_eO"><p><span style="font-size:18px">Given two binary trees with same number of nodes, the task is&nbsp;to check if each of their levels are anagrams of each other or not.&nbsp;</span></p>
 
 <p><span style="font-size:18px"><strong>Example 1:</strong></span></p>
 
