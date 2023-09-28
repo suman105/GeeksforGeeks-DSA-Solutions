@@ -1,4 +1,4 @@
-<h2><a href="https://practice.geeksforgeeks.org/problems/add-all-greater-values-to-every-node-in-a-bst/1?page=7&difficulty[]=1&status[]=solved&sortBy=submissions">Add all greater values to every node in a BST</a></h2><h3>Difficulty Level : Medium</h3><hr><div class="problems_problem_content__Xm_eO"><p><span style="font-size:18px">Given a BST,&nbsp;modify it so that all greater values in the given BST are added to every node.</span></p>
+<h2><a href="https://practice.geeksforgeeks.org/problems/add-all-greater-values-to-every-node-in-a-bst/1">Add all greater values to every node in a BST</a></h2><h3>Difficulty Level : Medium</h3><hr><div class="problems_problem_content__Xm_eO"><p><span style="font-size:18px">Given a BST,&nbsp;modify it so that all greater values in the given BST are added to every node.</span></p>
 
 <p><span style="font-size:18px"><strong>Example 1:</strong></span></p>
 
