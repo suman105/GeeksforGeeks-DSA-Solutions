@@ -7,12 +7,16 @@ class Solution{
     public:
     int firstIndex(int a[], int n) 
     {
-        for(int i=0;i<n;i++)
-        {
-            if(a[i]==1)
-                return i;
+        int i=0,j=n-1,c=-1;
+        while(i<=j){
+            int mid = (i+j)/2;
+            if(a[mid]==1){
+                c=mid;
+                j=mid-1;
+            }
+            else    i=mid+1;
         }
-        return -1;
+        return (c==-1) ? -1:c;
     }
 };
 
