@@ -19,10 +19,9 @@ struct Node {
 
 class Solution {
   public:
-  void help(Node *head, vector<int> &v)
+  void helper(Node *head, vector<int> &v)
     {
-        if(head==NULL)  return;
-        
+        if(!head)  return;
         help(head->left,v);
         v.push_back(head->data);
         help(head->right,v);
@@ -30,8 +29,8 @@ class Solution {
     vector<int> inOrder(Node* root) 
     {
        vector<int> v;
-        help(root,v);
-        return v;
+       helper(root,v);
+       return v;
     }
 };
 
