@@ -11,17 +11,12 @@ class Solution
 public:
     int minValueToBalance(int a[], int n)
     {
-        int i,j;
-        int fs=0,ls=0;
-        j = n-1;
-        for(i=0;i<n/2;i++){
-            fs = fs + a[i];
-            ls = ls + a[j-i];
+        int i=0,j=n-1,fs=0,ls=0;
+        while(i<j){
+            fs = fs + a[i++];
+            ls = ls + a[j--];
         }
-        if(ls < fs)
-            return fs-ls;
-        else
-            return ls-fs;
+        return abs(fs-ls);
     }
 };
 
