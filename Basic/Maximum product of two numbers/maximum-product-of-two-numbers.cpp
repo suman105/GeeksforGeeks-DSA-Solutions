@@ -7,35 +7,20 @@ using namespace std;
 // } Driver Code Ends
 class Solution{
 public:
-	int maxProduct(int a[], int n) {
-	    int i,m=a[0],j;
-        for(i=1;i<n;i++){
-            if(a[i] > m){
-                m = a[i];
-            }
-        }
-        int c[m+1];
-        for(i=0;i < m+1;i++){
-            c[i] = 0;
-        }
-        
-        for(i=0;i<n;i++){
-            c[a[i]]++;
-        }
-        i=0,j=0;
-        while(i < m+1)
-         {
-         	if(c[i] > 0)
-         	{
-         		a[j] = i;
-    			 c[i]--;++j;	
-    		}
-    		else
-    		{
-    			++i;
-    		}
-    	 }
-    	 return a[n-1]*a[n-2];
+	int maxProduct(int arr[], int n) 
+	{
+	    int m1=INT_MIN,m2=INT_MIN;
+	    int index=-1;
+	    for(int i=0;i<n;i++){
+	        if(arr[i]>m1){
+	            m1=arr[i];
+	            index=i;
+	        }
+	    }
+	    for(int i=0;i<n;i++){
+	        if(i!=index)    if(arr[i]>m2 && arr[i]<=m1)  m2=arr[i];
+	    }
+	    return m1*m2;
 	}
 };
 
