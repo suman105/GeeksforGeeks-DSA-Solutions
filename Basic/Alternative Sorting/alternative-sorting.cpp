@@ -8,31 +8,18 @@ class Solution{
 
 
 	public:
-	vector<int> alternateSort(int arr[], int n)
+	vector<int> alternateSort(int arr[], int N)
 	{
-	    sort(arr,arr+n);
-	    vector<int> v;
-	    int i;
-	    if(n%2 == 0)
-	    {
-	        for(i=0;i<n/2;i++)
-	        {
-	            v.push_back(arr[n-1-i]);
-	            v.push_back(arr[i]);
-	        }
+	    vector<int> result;
+	    sort(arr,arr+N);
+	    int i=0,j=N-1;
+	    while(i<j){
+	        result.push_back(arr[j--]);
+	        result.push_back(arr[i++]);
 	    }
-	    else
-	    {
-	        for(i=0;i<n/2;i++)
-	        {
-	            v.push_back(arr[n-1-i]);
-	            v.push_back(arr[i]);
-	        }
-	        v.push_back(arr[n/2]);
-	    }
-	    return v;
+	    if(i==j)    result.push_back(arr[i]);
+	    return result;
 	}
-
 };
 	
 
