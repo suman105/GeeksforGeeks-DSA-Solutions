@@ -6,36 +6,18 @@
 
 // } Driver Code Ends
 
-void binSort(int a[], int n)
-{
-   int i,m=a[0],j;
-        for(i=1;i<n;i++){
-            if(a[i] > m){
-                m = a[i];
-            }
-        }
-        int c[m+1];
-        for(i=0;i < m+1;i++){
-            c[i] = 0;
-        }
-        
-        for(i=0;i<n;i++){
-            c[a[i]]++;
-        }
-        i=0,j=0;
-        while(i < m+1)
-         {
-         	if(c[i] > 0)
-         	{
-         		a[j] = i;
-    			 c[i]--;++j;	
-    		}
-    		else
-    		{
-    			++i;
-    		}
-    	 }
-}
+void binSort(int A[], int N)
+    {
+       int count0=0,count1=0,i=0;
+       while(i<N){
+           if(A[i]) ++count1;
+           else ++count0;
+           ++i;
+       }
+       i=0;
+       while(count0--)  A[i++]=0;
+       while(count1--)  A[i++]=1;
+    }
 
 
 //{ Driver Code Starts.
