@@ -12,10 +12,6 @@ class Solution{
     public:
     bool check(vector<ll> A, vector<ll> B, int N)
     {
-	// I have mention solution by using Multiset and Map both the algorithms using 
-	// using Time Complexity-O(N) && Space Complexity-O(N)
-	    
-	// Using Multiset
         multiset<ll> a,b;
         for(auto &x: A)
             a.insert(x);
@@ -25,18 +21,6 @@ class Solution{
         {
             if(*i != *j)
                 return false;
-        }
-        return true;
-
-	// Using Map
-	map<ll,ll> m;
-        for(int i=0;i<N;i++){
-            if(m.find(A[i])==m.end())   m[A[i]]=1;
-            else    ++m[A[i]];
-        }
-        for(int i=0;i<N;i++){
-            if(m.find(B[i])!=m.end() && m[B[i]])    --m[B[i]];
-            else return false;
         }
         return true;
     }
