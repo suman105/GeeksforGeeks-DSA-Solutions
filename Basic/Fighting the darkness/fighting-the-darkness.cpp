@@ -10,11 +10,7 @@ class Solution{
 public:
     int maxDays(int arr[],int n){
         int i,m=arr[0];
-        for(i=1;i<n;i++){
-            if(m < arr[i]){
-                m = arr[i];
-            }
-        }
+        for(i=1;i<n;i++)    m=max(m,arr[i]);
         return m;
     }
 };
