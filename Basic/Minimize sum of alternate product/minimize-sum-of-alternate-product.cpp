@@ -28,24 +28,8 @@ int main()
 long long altProduct(long long a[], long long n)
 {
     sort(a,a+n);
-    int i,j;
+    int i,j=n-1;
     long long s=0;
-    j = n-1;
-    if(n%2 == 0){
-        for(i=0;i<n/2;i++)
-        {
-            s = s + a[i]*a[j];
-            --j;
-        }
-    }
-    else
-    {
-        for(i=0;i<n/2;i++)
-        {
-            s = s + a[i]*a[j];
-            --j;
-        }
-        s = s + a[(n/2)+1];
-    }
+    for(i=0;i<n/2;i++)  s += a[i]*a[j--];
     return s;
 }
