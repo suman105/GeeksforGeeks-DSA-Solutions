@@ -9,23 +9,15 @@ using namespace std;
 class Solution{
 public:	
 	void zigZag(int arr[], int n) 
-	{
-	    int i=0,j=1;
-	    for(int k=0;k<n;k++)
-	    {
-	        if(arr[i]>arr[j])
-	            swap(arr[i],arr[j]);
-	        ++i;
-	        ++j;
-	        if(j>=n)
-	            break;
-	        if(arr[i]<arr[j])
-	            swap(arr[i],arr[j]);
-	       ++i;++j;
-	        if(j>=n)
-	            break;
-	    }
-	}
+    	{
+        	int i=0;
+        	while(i<(n-1)){
+            	if(arr[i]>arr[i+1])  swap(arr[i],arr[i+1]);
+            	++i;
+            	if(i<(n-1) && arr[i]<arr[i+1])   swap(arr[i],arr[i+1]);
+            	++i;
+        }
+    }
 };
 
 
