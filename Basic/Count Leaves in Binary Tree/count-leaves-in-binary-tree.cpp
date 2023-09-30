@@ -99,9 +99,7 @@ int main()
 
 int countLeaves(Node* root)
 {
-    if(root==NULL)
-        return 0;
-    if(root->left!=NULL || root->right!=NULL)
-        return countLeaves(root->left)+countLeaves(root->right);
-    return 1+countLeaves(root->left)+countLeaves(root->right);
+  if(!root) return 0;
+  else if(!root->left && !root->right)  return 1;
+  return countLeaves(root->left)+countLeaves(root->right);
 }
