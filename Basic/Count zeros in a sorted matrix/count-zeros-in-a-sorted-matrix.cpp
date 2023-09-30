@@ -9,16 +9,15 @@ class Solution{
 public:
 	int countZeros(vector<vector<int>>A)
 	{
-		int i,j,c=0;
-		for(i=0;i<A.size();i++)
-		{
-		    for(j=0;j<A.size();j++)
-		    {
-		        if(A[i][j] == 0)
-		            ++c;
+		int n=A.size(),r=0,c=n-1,count=0;
+		while(r<n && c>=0){
+		    if(A[r][c]==0){
+		        count += c+1;
+		        r += 1;
 		    }
+		    else    c -= 1;
 		}
-		return c;
+		return count;
 	}
 };
 
