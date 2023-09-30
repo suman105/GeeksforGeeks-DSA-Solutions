@@ -12,10 +12,7 @@ class Solution
     {
         int i=0;
         for(i=0;i<n;i++)
-        {
-            if(b == a[i])
-                b = b*2;
-        }
+            if(b == a[i])    b = b*2;
         return b;
     }  
 };
