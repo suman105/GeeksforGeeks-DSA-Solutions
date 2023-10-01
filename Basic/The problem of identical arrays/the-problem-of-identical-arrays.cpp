@@ -4,7 +4,6 @@ using namespace std;
 
 int check(int *a, int *b, int n);
 
-
 int main() {
     
     int t;
@@ -26,13 +25,10 @@ int main() {
 	return 0;
 }
 // } Driver Code Ends
-
 int check(int *a, int *b, int n){
     sort(a,a+n);
     sort(b,b+n);
-    int i,c=0;
-    for(i=0;i<n;i++)
-        if(a[i] == b[i])    ++c;
-    
-    return (n==c) ? 1:0;
+    for(int i=0;i<n;i++)
+        if(a[i]!=b[i])    return 0;
+    return 1;
 }
