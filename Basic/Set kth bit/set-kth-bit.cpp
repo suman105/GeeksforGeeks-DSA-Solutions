@@ -10,14 +10,8 @@ public:
     int setKthBit(int n, int K)
     {
         return (1<<k | n);
-    }
-    
+    } 
 };
-
-
-
-
-
 
 //{ Driver Code Starts.
 int main()
