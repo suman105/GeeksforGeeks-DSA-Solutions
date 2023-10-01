@@ -53,24 +53,9 @@ int main() {
 }
 
 // } Driver Code Ends
-void help(Node *root,int x,bool &found)
+bool search(Node* root, int x)
 {
-    if(!root)   return;
-    if(root->data==x){
-        found=true;
-        return;
-    }
-    if(root->data > x)
-        help(root->left,x,found);
-    else
-        help(root->right,x,found);
-}
-
-bool search(Node* root, int x) 
-{
-    bool found=false;
-    help(root,x,found);
-    if(found)
-        return 1;
-    return 0;
+    if(!root)   return 0;
+    else if(root->data==x)  return 1;
+    return search(root->left,x) || search(root->right,x);
 }
