@@ -6,35 +6,10 @@ using namespace std;
 class Solution
 {
 public:
-    int power(int a,int n)
-    {
-        int ans = 1;
-        while (n > 0) {
-     
-            int last_bit = (n & 1);
-            if (last_bit) {
-                ans = ans * a;
-            }
-            a = a * a;
-            n = n >> 1;
-        }
-        return ans;
-    }
+    
     int setKthBit(int n, int K)
     {
-        int binaryNum[32];
-        
-        int i = 0,k=0;
-        while (n > 0) {
-            binaryNum[i] = n % 2;
-            n = n / 2;
-            i++;
-        }
-        binaryNum[K]=1;
-        int sum=0;
-        for(int j=0;j<i;j++)
-            sum+=binaryNum[j]*power(2,j);
-        return sum;
+        return (1<<k | n);
     }
     
 };
