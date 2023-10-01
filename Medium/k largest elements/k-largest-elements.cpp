@@ -11,22 +11,23 @@ public:
 	vector<int> kLargest(int arr[], int n, int k)
 	{
 	    vector<int> v;
-	    int i=0;
-	    priority_queue<int, vector<int>, greater<int> > t;
-	    for(i=0;i<k;i++)
-	        t.push(arr[i]);
-	    for(i=k;i<n;i++){
-	        t.push(arr[i]);
-	        t.pop();
+	    priority_queue <int, vector<int>, greater<int> > p;
+	    int temp=k;
+	    while(temp>0){
+	        p.push(arr[temp-1]);
+	        --temp;
 	    }
-	    for(i=0;i<k;i++){
-	        v.push_back(t.top());
-	        t.pop();
+	    for(int i=k;i<n;i++){
+	        p.push(arr[i]);
+	        p.pop();
 	    }
-	    reverse(v.begin(), v.end());
+	    while(!p.empty()){
+	        v.push_back(p.top());
+	        p.pop();
+	    }
+	    reverse(v.begin(),v.end());
 	    return v;
 	}
-
 };
 
 
