@@ -20,12 +20,17 @@ public:
         s.insert(0);
         s.insert(1);
         for(int i=2;i<n;i++){
-            if(a[i-1]-i > 0 && s.find(a[i-1]-i)==s.end()){
-                a[i]=a[i-1]-i;
-                s.insert(a[i]);
+            if(a[i-1]-i > 0){
+                if(s.find(a[i-1]-i)==s.end()){
+                    a[i]=a[i-1]-i;
+                    s.insert(a[i]);
+                }
+                else{
+                    a[i]=a[i-1]+i;
+                    s.insert(a[i]);
+                }
             }
-            else
-            {
+            else{
                 a[i]=a[i-1]+i;
                 s.insert(a[i]);
             }
@@ -34,6 +39,7 @@ public:
         return v;
     }
 };
+
 
 //{ Driver Code Starts.
 
