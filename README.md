@@ -25,10 +25,6 @@ Each problem is accompanied by a **dedicated README file** explaining the approa
 
 ---
 
-## 📂 **Structured Repository Layout**  
-
-
-
 ## 🔥 **Getting Started**  
 
 ### Clone the Repository  
@@ -52,10 +48,9 @@ g++ <filename>.cpp -o <outputfile>
 ## 🤝 **Contributions**
 Contributions are welcome! Feel free to fork this repository, suggest improvements, or add alternative solutions. To contribute:
 1. Fork & Clone the Repository.
-  ```sh
-  git clone https://github.com/your-username/GeeksforGeeks-DSA.git
-  cd GeeksforGeeks-DSA
-```
+   ```sh
+   git clone https://github.com/your-username/GeeksforGeeks-DSA.git
+   cd GeeksforGeeks-DSA
 2. Create a new branch.
    ```sh
    git checkout -b feature-branch
