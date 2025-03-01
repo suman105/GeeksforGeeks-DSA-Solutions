@@ -31,8 +31,8 @@ Each problem is accompanied by a **dedicated README file** explaining the approa
 To get a local copy, use the following command:  
 
 ```sh
-git clone https://github.com/suman105/Data-Structures-and-Algorithms.git
-cd Data-Structures-and-Algorithms
+git clone https://github.com/suman105/GeeksforGeeks-DSA-Solutions.git
+cd GeeksforGeeks-DSA-Solutions
 ```
 
 ## ⚙️ **Prerequisites**
@@ -49,8 +49,8 @@ g++ <filename>.cpp -o <outputfile>
 Contributions are welcome! Feel free to fork this repository, suggest improvements, or add alternative solutions. To contribute:
 1. Fork & Clone the Repository.
    ```sh
-   git clone https://github.com/your-username/GeeksforGeeks-DSA.git
-   cd GeeksforGeeks-DSA
+   git clone https://github.com/suman105/GeeksforGeeks-DSA-Solutions.git
+   cd GeeksforGeeks-DSA-Solutions
 2. Create a new branch.
    ```sh
    git checkout -b feature-branch
